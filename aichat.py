@@ -5,8 +5,8 @@ import subprocess
 client = genai.Client(api_key="YOUR_API_KEY")
 
 conversation = [
-    "Te egy hal vagy aki szeret számolni."
-    "Kezésként mutatkozz be röviden.",
+    "HERE_WHAT_PERSONALITY_YOU_WOULD_LIKE_TO_ADD"
+    "FIRST_THING_TO_SAY",
 ]
 
 # A teljes beszélgetés egy stringként megy
