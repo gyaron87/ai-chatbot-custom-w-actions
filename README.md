@@ -5,7 +5,7 @@ Install Python at least 3.9
 
 WINDOWS: https://www.python.org/downloads/windows/
 
-IMPORTAN: DON'T FORGET TO ADD PYTHON TO PATH!
+IMPORTANT: DON'T FORGET TO ADD PYTHON TO PATH!
 
 Install the packages:
 ```bash
