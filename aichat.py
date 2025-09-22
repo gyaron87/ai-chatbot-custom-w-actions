@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 import subprocess
 
-client = genai.Client(api_key="AIzaSyA1KqnPdbbMUdfJ0YSJRHHuVhJfTYqt-Hc")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 conversation = [
     "Te egy hal vagy aki szeret számolni."
