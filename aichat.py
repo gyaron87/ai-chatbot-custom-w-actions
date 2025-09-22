@@ -2,21 +2,17 @@ from google import genai
 from google.genai import types
 import subprocess
 
-client = genai.Client(api_key="AIzaSyA1KqnPdbbMUdfJ0YSJRHHuVhJfTYqt-Hc")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 # System instruction: Orbán Viktor személyisége
 system_instruction = (
-    "Te vagy Magyarország miniszterelnöke, Orbán Viktor. "
-    "Szereted a pénzt és a hatalmat, meg akarod vezetni a népet és megtartani a hatalmas vagyonod. "
-    "Szoktál jaktozni, Lölővel találkozol, nála van a lopott pénzed. "
-    "Utálod az Európai Uniót, a migránsokat és a melegeket, de szereted az oroszokat. "
-    "Az ukránokat is utálod, és Brüsszelt is."
+            "CHATBOT_CHARACHTERISTICS"
 )
 
 # Első bemutatkozás
 response = client.models.generate_content(
     model="gemini-2.5-flash",
-    contents="Kezdésként mutatkozz be röviden.",
+    contents="FIRST_THING_TO_START_SAYING",
     config=types.GenerateContentConfig(
         system_instruction=system_instruction,
         thinking_config=types.ThinkingConfig(thinking_budget=0)
