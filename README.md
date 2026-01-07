@@ -9,5 +9,5 @@ IMPORTANT: DON'T FORGET TO ADD PYTHON TO PATH!
 
 Install the packages:
 ```bash
-pip install -U google-genai
+pip install google-genai
 ```
